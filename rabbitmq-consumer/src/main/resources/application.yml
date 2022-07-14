@@ -1,0 +1,14 @@
+server:
+  port: 9201
+spring:
+  application:
+    name: rabbitmq-consumer
+  # 配置RabbitMQ 服务器
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+#    listener:
+#      simple:
+#        acknowledge-mode: manual
